@@ -1,0 +1,58 @@
+* {
+    font-family: "helvetica";
+    font-weight: bold;
+    
+}
+
+.header {
+    font-size: 50px;
+    text-align: center;
+    height: 200px;
+    overflow: hidden;
+}
+
+.header img {
+    z-index: -2;
+    position: relative;
+    top: -200px;
+    width: 100%;
+}
+
+.header h1 {
+    z-index: 2;
+    color: khaki;
+}
+
+.section-brushes {
+    font-size: 32px;
+    color: white;
+    background-color: mediumspringgreen;
+}
+
+.section-frames {
+    font-size: 32px;
+    color: white;
+    background-color: lightcoral;
+}
+
+.section-paint {
+    font-size: 32px;
+    color: white;
+    background-color: skyblue;
+}
+
+.section-title {
+    font-size: 22px;
+    padding: 5px;
+}
+
+.section-main-text {
+    font-size: 18px;
+    display: inline
+}
+
+.fake-hyperlink {
+    color: blue;
+    font-size: 18px;
+    display: inline;
+}
